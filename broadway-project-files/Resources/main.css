@@ -1,0 +1,264 @@
+body {
+  max-width: 1200%;
+  /* max-height: 1000px; */
+  font-family: Raleway, sans-serif;
+  display: initial;
+}
+
+img {
+  width: 28%;
+  height: 500px;
+  margin: 1.6666%;
+  opacity: 0.7;
+}
+
+img:hover {
+  opacity: 1;
+  transition: 0.4s;
+}
+
+#logo h1 {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 0.6em;
+  text-transform: uppercase;
+  border-bottom: 2px solid #000;
+  width: 30%;
+  margin-left: 40px;
+  padding: 20px 0;
+}
+
+header {
+  width: 100%;
+  position: sticky;
+  background-color: #fff;
+  top: 0;
+  z-index: 10;
+  padding-bottom: 20px;
+}
+
+span {
+  color: rgb(161, 119, 88);
+  font-size: 50px;
+}
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+ul li {
+  display: inline;
+  width: 200px;
+  overflow: auto;
+  padding: 10px;
+}
+
+ul li a {
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: light;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+  background-color: #000;
+  color: #fff;
+}
+
+ul li a:hover {
+  background-color: burlywood;
+  color: #000;
+}
+
+.current {
+  background-color: burlywood;
+  color: #000;
+}
+
+
+/* Contact Form */
+
+div.container {
+  width: 400px;
+  height: 400px;
+  margin: 80px 40px;
+  padding: 20px;
+  background-color: rgba(190, 192, 196, 0.76);
+  border-radius: 5px;
+  position: relative;
+}
+
+div #form-control1, #form-control2, #form-control3 {
+  margin: 10px;
+  width: 100%;
+}
+
+.input-box:focus {
+  box-shadow:rgb(161, 119, 88);
+}
+
+#submit-btn {
+  width: 50%;
+  margin: 0 auto;
+  }
+  
+  #btn {
+    border: none;
+    border-radius: 5px;
+    background-color: burlywood;
+    color: #333;
+    padding: 10px;
+    font-size: 18px;
+    width: 200px;
+    cursor: pointer;
+  }
+  
+  #btn:hover {
+    background-color: #fff;
+    color: #333;
+  }
+
+  input[type=text], input[type=email], textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #DDDDDD;
+  }
+   
+  input[type=text]:focus, input[type=email], textarea:focus {
+    box-shadow: 0 0 5px rgb(238, 152, 81);
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid rgba(238, 152, 81, 1);
+  }
+  
+
+/* Begin Contact P */
+
+#contact-blurb {  
+  width: 100%;
+  position: absolute;
+  bottom: 120px;
+  left: 480px;
+  margin-bottom: 0;
+}
+
+#contact-blurb p {
+letter-spacing: 1px;
+border-left: rgb(170, 170, 170) 5px solid;
+padding-left: 10px;
+margin-bottom: 0;
+}
+
+i {
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+#camera-icon {
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+}
+
+#contact-span {
+  margin: 0 50px;  
+  padding: 0;
+  position: relative;
+  top: 80px;
+
+}
+
+/* About Page */
+#about-info-bg {
+  width: 1150px;
+  height: 750px;
+  background: url("./img/unsplash6.jpg") no-repeat center center/cover;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  margin: 50px auto;
+  box-sizing: border-box;
+}
+
+#about-info-bg h2 {
+  letter-spacing: 0.2em;
+  font-size: 60px;
+  padding: 5px;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+
+}
+
+#about-info-words p {
+  width: 60%;
+  margin: -40px auto 20px;
+  text-align: justify;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#about-info-words hr {
+  width: 30%;
+}
+
+#tiny-span {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(161, 119, 88);
+  margin-bottom: 20px;
+}
+
+#big-span {
+  font-size: 70px;
+  border-radius: 2px;
+  background-color: #fff;
+  opacity: 0.9;
+}
+
+#about-logo {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 30px;
+}
+
+/* Portfolio Page */
+.portfolio-info {
+  width: 960px;
+  margin: 80px auto;
+}
+
+#release-dates p {
+  font-size: 18px;
+}
+
+button {
+  font-family: Raleway, sans-serif;
+  margin-left: 800px;
+  margin-top: 0px;
+  border: 1px solid rgb(102, 66, 40);
+  padding: 20px;
+  border-radius: 2px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  margin: 0;
+  padding: 5px;
+  background-color: #b1afaf;
+  position: relative;
+  bottom: -20px;
+}
+
+footer p {
+  text-align: center;
+}
+
