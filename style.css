@@ -178,7 +178,7 @@ i {
 #about-info-bg {
   width: 1150px;
   height: 750px;
-  background: url("./img/unsplash6.jpg") no-repeat center center/cover;
+  background: url("unsplash6.jpg") no-repeat center center/cover;
   /* border: 1px solid black; */
   border-radius: 5px;
   margin: 50px auto;
