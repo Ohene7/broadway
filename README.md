@@ -1,6 +1,8 @@
 # Broadway & 42nd Photography
 A minimalist static website project using simple HTML & CSS 
 
+## Live Site: https://ohene7.github.io/broadway/
+
 ![Broadway-Home](https://user-images.githubusercontent.com/73366421/102925159-e4bbe380-4460-11eb-9f78-bfe8ba0b6e7f.png)
 ![Broadway-About](https://user-images.githubusercontent.com/73366421/102925163-e685a700-4460-11eb-9782-f67b15707156.png)
 ![Broadway-Contact](https://user-images.githubusercontent.com/73366421/102925171-e9809780-4460-11eb-8bba-e3cebffd388f.png)
